@@ -6,11 +6,11 @@
     <title>Welcome to My School</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+        /* General styles */
         .school-logo {
-            float:left;
+            float: left;
             width: 100px;
             height: 100px;
-            
         }
         .small-logo {
             width: 104px;
@@ -19,23 +19,16 @@
         .container {
             display: flex;
         }
-
         /* Style for individual divs */
         .container > div {
             flex: 1; /* Distribute available space equally among divs */
-            margin: 0px; /* Add margin for spacing */
-            padding: 0px; /* Add padding for content separation */
-            text-align:center
-        
+            margin: 0; /* Reset margin */
+            padding: 0; /* Reset padding */
+            text-align: center;
         }
-
     </style>
 </head>
 <body>
-    <header>
-        <img src="Lacipd_logo.jpeg" alt="Lazipd2" class="school-logo">
-        <h1><b>WELCOME to LACIPD</b></h1>
-    </header>
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
@@ -45,6 +38,10 @@
         <a href="events.html">News & Events</a>
         <a href="contact.html">Contact Us</a>
     </nav>
+    <header>
+        <img src="Lacipd_logo.jpeg" alt="Lazipd2" class="school-logo">
+        <h1><b>WELCOME to LACIPD</b></h1>
+    </header>
     <div class="container mt-5">
         <div class="row">
             <div class="col-sm-4">
@@ -55,8 +52,7 @@
             <div class="col-sm-4">
                 <h3>Column 2</h3>
                 <p>Come to us and upskill yourself and your child</p>
-                <p>
-                    "Our goal is to witness the joy of learning.<br> This is supported by child-centered approach,<br> LACIPD curriculum implementation<br> with cross-curricular <br>themes and team-teaching methods."</p>
+                <p>"Our goal is to witness the joy of learning.<br> This is supported by child-centered approach,<br> LACIPD curriculum implementation<br> with cross-curricular <br>themes and team-teaching methods."</p>
             </div>
             <div class="col-sm-4">
                 <h3>Column 3</h3>        
@@ -90,4 +86,3 @@
     <script src="responsive.js"></script>
 </body>
 </html>
-
